@@ -18,7 +18,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	prompt := fmt.Sprintf("Sumarize the following text: %v", text)
+	prompt := fmt.Sprintf("summarize the following text: %v", text)
 
 	ai.Ask(prompt, chatGPT)
 }
